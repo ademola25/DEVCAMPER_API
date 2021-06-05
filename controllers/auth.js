@@ -103,6 +103,7 @@ const sendTokenResponse = (user, statusCode, res) => {
                 data: {}
             });
         });
+        */
 
         // @desc      Get current logged in user
         // @route     POST /api/v1/auth/me
@@ -116,6 +117,7 @@ const sendTokenResponse = (user, statusCode, res) => {
             });
         });
 
+        /*
         // @desc      Update user details
         // @route     PUT /api/v1/auth/updatedetails
         // @access    Private
